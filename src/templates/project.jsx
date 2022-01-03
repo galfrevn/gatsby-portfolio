@@ -92,15 +92,15 @@ const Project = ({ project, meta }) => {
                 ].concat(meta)}
             />
             <Layout>
-                <ProjectTitle>
+                <ProjectTitle data-sal="slide-up" data-sal-delay="200" data-sal-duration="1500" data-sal-easing="ease">
                     {RichText.render(project.project_title)}
                 </ProjectTitle>
                 {project.project_hero_image && (
-                    <ProjectHeroContainer>
+                    <ProjectHeroContainer data-sal="slide-up" data-sal-delay="300" data-sal-duration="1500" data-sal-easing="ease">
                         <img src={project.project_hero_image.url} alt="bees" />
                     </ProjectHeroContainer>
                 )}
-                <ProjectBody>
+                <ProjectBody >
                     {RichText.render(project.project_description)}
                     <WorkLink to={"https://github.com/galfrevn"}>
                         <Button className="Button--repo">

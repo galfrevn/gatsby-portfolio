@@ -82,11 +82,11 @@ const StyledLink = styled(Link)`
 
 const Header = () => (
     <HeaderContainer>
-        <HeaderContent>
+        <HeaderContent data-sal="slide-up" data-sal-delay="100" data-sal-duration="1500" data-sal-easing="ease">
             <StyledLink to="/">
                 <Logo/>
             </StyledLink>
-            <HeaderLinks>
+            <HeaderLinks data-sal="slide-up" data-sal-delay="200" data-sal-duration="1500" data-sal-easing="ease">
                 <Link
                     activeClassName="Link--is-active"
                     to="/work">

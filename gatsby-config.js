@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Galfre.vn | Personal portfolio`,
-        description: `I am Valentín Galfré and this is my personal portfolio. Know me better!`,
+    description: `I am Valentín Galfré and this is my personal portfolio. Know me better!`,
     author: `Valentín Galfré`,
   },
   plugins: [
+    `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

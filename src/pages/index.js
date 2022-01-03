@@ -137,7 +137,7 @@ const RenderBody = ({ home, projects, meta }) => (
                 },
             ].concat(meta)}
         />
-        <Hero>
+        <Hero data-sal="slide-up" data-sal-delay="400" data-sal-duration="1500" data-sal-easing="ease">
             <>
                 {RichText.render(home.hero_title)}
             </>
@@ -149,7 +149,7 @@ const RenderBody = ({ home, projects, meta }) => (
             </a>
         </Hero>
         <Section>
-            <WorkTitle>
+            <WorkTitle data-sal="slide-up" data-sal-delay="200" data-sal-duration="1500" data-sal-easing="ease">
                 See some of my works
             </WorkTitle>
             {projects.map((project, i) => (
@@ -162,7 +162,7 @@ const RenderBody = ({ home, projects, meta }) => (
                     uid={project.node._meta.uid}
                 />
             ))}
-            <WorkAction to={"/work"}>
+            <WorkAction to={"/work"} data-sal="slide-up" data-sal-delay="200" data-sal-duration="1500" data-sal-easing="ease">
                 See more work <span>&#8594;</span>
             </WorkAction>
         </Section>

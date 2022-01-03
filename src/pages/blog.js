@@ -73,10 +73,10 @@ const Blog = ({ posts, meta }) => (
             ].concat(meta)}
         />
         <Layout>
-            <BlogTitle>
+            <BlogTitle data-sal="slide-up" data-sal-delay="400" data-sal-duration="1500" data-sal-easing="ease">
                 Blog
             </BlogTitle>
-            <BlogSubTitle>
+            <BlogSubTitle data-sal="slide-up" data-sal-delay="500" data-sal-duration="1500" data-sal-easing="ease">
                 Discover my strengths, hobbies and other stuffs.
             </BlogSubTitle>
             <BlogGrid>

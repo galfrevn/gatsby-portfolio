@@ -134,29 +134,29 @@ const Post = ({ post, meta }) => {
                 ].concat(meta)}
             />
             <Layout>
-                <PostCategory>
+                <PostCategory data-sal="slide-up" data-sal-delay="100" data-sal-duration="1500" data-sal-easing="ease">
                     {RichText.render(post.post_category)}
                 </PostCategory>
-                <PostTitle>
+                <PostTitle data-sal="slide-up" data-sal-delay="200" data-sal-duration="1500" data-sal-easing="ease">
                     {RichText.render(post.post_title)}
                 </PostTitle>
-                <PostMetas>
-                    <PostAuthor>
+                <PostMetas data-sal="slide-up" data-sal-delay="300" data-sal-duration="1500" data-sal-easing="ease">
+                    <PostAuthor data-sal="slide-up" data-sal-delay="400" data-sal-duration="1500" data-sal-easing="ease">
                         {post.post_author}
                     </PostAuthor>
-                    <PostDate>
+                    <PostDate data-sal="slide-up" data-sal-delay="400" data-sal-duration="1500" data-sal-easing="ease">
                         <Moment format="MMMM D, YYYY">{post.post_date}</Moment>
                     </PostDate>
                 </PostMetas>
                     {post.post_hero_image && (
-                    <PostHeroContainer>
+                    <PostHeroContainer data-sal="slide-up" data-sal-delay="200" data-sal-duration="1500" data-sal-easing="ease">
                         <img src={post.post_hero_image.url} alt="bees" />
-                        <PostHeroAnnotation>
+                        <PostHeroAnnotation >
                             {RichText.render(post.post_hero_annotation)}
                         </PostHeroAnnotation>
                     </PostHeroContainer>
                 )}
-                <PostBody>
+                <PostBody >
                     {RichText.render(post.post_body)}
                 </PostBody>
             </Layout>

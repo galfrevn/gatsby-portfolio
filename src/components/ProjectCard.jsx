@@ -151,7 +151,7 @@ const ProjectCardImageContainer = styled("div")`
 `
 
 const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
-    <ProjectCardContainer to={`/work/${uid}`}>
+    <ProjectCardContainer to={`/work/${uid}`} data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease">
         <ProjectCardContent className="ProjectCardContent">
             <ProjectCardCategory>
                 {category[0].text}

@@ -17,6 +17,7 @@
     "gatsby-plugin-react-helmet": "^3.1.8",
     "gatsby-plugin-resolve-src": "^2.0.0",
     "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-scroll-reveal": "^0.0.7",
     "gatsby-plugin-sharp": "^2.2.25",
     "gatsby-source-filesystem": "^2.1.26",
     "gatsby-source-graphql-universal": "^3.3.0",

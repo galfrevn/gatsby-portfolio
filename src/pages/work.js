@@ -56,10 +56,10 @@ const Work = ({ projects, meta }) => (
             ].concat(meta)}
         />
         <Layout>
-            <WorkTitle>
+            <WorkTitle data-sal="slide-up" data-sal-delay="400" data-sal-duration="1500" data-sal-easing="ease">
                 My works
             </WorkTitle>
-            <WorkSubTitle>
+            <WorkSubTitle data-sal="slide-up" data-sal-delay="500" data-sal-duration="1500" data-sal-easing="ease">
                 Take a look of some of my personal projects!    
             </WorkSubTitle>
             <>

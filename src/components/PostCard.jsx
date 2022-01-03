@@ -86,7 +86,7 @@ const PostCardAction = styled("div")`
 `
 
 const PostCard = ({ author, category, date, title, description, uid}) => (
-    <PostCardContainer className="BlogPostCard" to={`/blog/${uid}`}>
+    <PostCardContainer className="BlogPostCard" to={`/blog/${uid}`} data-sal="slide-up" data-sal-delay="700" data-sal-duration="1500" data-sal-easing="ease">
         <PostCategory>
             {category[0].text}
         </PostCategory>

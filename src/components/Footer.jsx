@@ -58,7 +58,7 @@ const StyledLink = styled(Link)`
 `
 
 const Footer = () => (
-    <FooterContainer>
+    <FooterContainer data-sal="slide-up" data-sal-delay="200" data-sal-duration="1500" data-sal-easing="ease">
         <StyledLink to="/">
             <Logo />
         </StyledLink>

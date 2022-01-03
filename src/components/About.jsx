@@ -86,7 +86,7 @@ const AboutActions = styled("div")`
 
 
 const About = ({ bio, socialLinks }) => (
-    <AboutContainer>
+    <AboutContainer data-sal="slide-up" data-sal-delay="300" data-sal-duration="1500" data-sal-easing="ease">
         <AboutLinkContainer>
             <SocialLinksSubTitle>
                 Follow me on:
