@@ -4,6 +4,7 @@ module.exports = {
     description: `I am Valentín Galfré and this is my personal portfolio. Know me better!`,
     author: `Valentín Galfré`,
   },
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-react-helmet`,
@@ -37,8 +38,8 @@ module.exports = {
         name: `galfrevn-portfolio`,
         short_name: `galfrevn`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#FFF`,
+        theme_color: `#FFF`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },

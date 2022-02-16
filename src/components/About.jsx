@@ -105,7 +105,7 @@ const About = ({ bio, socialLinks }) => (
             {RichText.render(bio)}
         </AboutBio>
         <AboutActions>
-            <a>
+            <a href="https://drive.google.com/file/d/1l2RkoF1klK1843UCs1KGgOppZEcnKfJz/view?usp=sharing" target="_blank" rel="noreferrer" >
                 <Button className="Button--repo" style={{ marginBottom: ".5em", marginRight: ".5em" }} >
                     My CV
                 </Button>

@@ -35,6 +35,12 @@ const globalStyles = css`
         }
     }
 
+    .main_icon {
+        position: absolute;
+        left: 16px;
+        top: 35%;
+    }
+
     /*
     A workaround for forcing accessibility wrappers
     to have a 100% height.

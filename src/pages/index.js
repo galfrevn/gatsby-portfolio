@@ -10,6 +10,7 @@ import Button from "components/_ui/Button";
 import About from "components/About";
 import Layout from "components/Layout";
 import ProjectCard from "components/ProjectCard";
+import { FaLinkedin } from 'react-icons/fa'
 
 const Hero = styled("div")`
     padding-top: 2.5em;
@@ -143,7 +144,8 @@ const RenderBody = ({ home, projects, meta }) => (
             </>
             <a href={home.hero_button_link.url}
                target="_blank" rel="noopener noreferrer">
-                <Button>
+                <Button className="Button--main" >
+                    <FaLinkedin className="main_icon" />
                     {RichText.render(home.hero_button_text)}
                 </Button>
             </a>
@@ -163,7 +165,7 @@ const RenderBody = ({ home, projects, meta }) => (
                 />
             ))}
             <WorkAction to={"/work"} data-sal="slide-up" data-sal-delay="200" data-sal-duration="1500" data-sal-easing="ease">
-                See more work <span>&#8594;</span>
+                See more projects <span>&#8594;</span>
             </WorkAction>
         </Section>
         <Section>

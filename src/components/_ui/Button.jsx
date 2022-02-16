@@ -49,6 +49,12 @@ const ButtonContainer = styled("button")`
             background: ${colors.dark200};
         }
     }
+
+    &.Button--main {
+        p {
+            padding-left: 10px;
+        }
+    }
 `
 
 class Button extends Component {
